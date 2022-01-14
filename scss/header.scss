@@ -1,0 +1,18 @@
+.panel-menu {
+    background-color: azure;
+}
+
+.menu-list {
+    display: flex;
+
+    .menu-item-active {
+        
+        width: 100px;
+    }
+}
+
+
+
+.menu-sub-list {
+    display: none;
+}
