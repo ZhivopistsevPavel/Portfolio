@@ -1,18 +1,55 @@
-.panel-menu {
+.header-menu {
     background-color: azure;
+    display: flex;
 }
 
-.menu-list {
+.panel {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 52px;
+    
 
-    .menu-item-active {
-        
-        width: 100px;
+    .logo {
+        font-size: 30px;
+        text-decoration: none;
+        color: $color2;
+    }
+
+    .logo:hover {
+        color: $color1;
+        transition: 0.5s ease all;
+    }
+
+    .top-menu {
+        display: flex;
+    }
+
+    .menu-list {
+        display: flex;
+        font-size: 10px;
+    
+        .menu-item {
+            width: 60px;
+    
+            .menu-link {
+                display: block;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: $font2;
+                color: $color3;
+            }
+        }
+    
+    }
+    
+    .menu-sub-list {
+        display: none;
+    }
+    
+    .menu-sub-list:hover {
+        display: block;
     }
 }
 
-
-
-.menu-sub-list {
-    display: none;
-}

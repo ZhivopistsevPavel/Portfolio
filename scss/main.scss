@@ -1,0 +1,21 @@
+.title-first {
+    font-family: $font1;
+}
+
+.content {
+    font-family: $font2;
+}
+
+.title-info-block {
+    display: flex;
+    
+    padding: 0px 10px;
+}
+
+.title-block {
+    background-image: url(/img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
