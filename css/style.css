@@ -337,8 +337,12 @@ template {
   display: none;
 }
 
+body {
+  font-family: "Vollkorn SC", serif;
+}
+
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -353,82 +357,57 @@ img {
   height: auto;
 }
 
-.header-menu {
-  background-color: azure;
-  display: flex;
+a {
+  text-decoration: none;
 }
 
-.panel {
-  display: flex;
-  justify-content: space-between;
+.header .info-panel-top .cell {
+  flex-grow: 1;
   text-align: center;
-  align-items: center;
-  height: 52px;
 }
-.panel .logo {
-  font-size: 30px;
-  text-decoration: none;
-  color: #c2c2c2;
+.header .info-panel-top .cell .cell-name {
+  color: gray;
 }
-.panel .logo:hover {
-  color: yellow;
-  transition: 0.5s ease all;
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 12px;
 }
-.panel .top-menu {
+.header .info-panel-top {
   display: flex;
+  flex-direction: row;
+  padding: 10px 0;
 }
-.panel .menu-list {
+.header .info-panel-top .welcome {
+  flex-grow: 2;
+  padding-left: 30px;
+}
+
+[class^=item] {
+  border-right: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  margin-left: -1px;
+}
+
+.preview-block {
   display: flex;
-  font-size: 10px;
+  flex-direction: row;
+  gap: 5px;
 }
-.panel .menu-list .menu-item {
-  width: 60px;
-}
-.panel .menu-list .menu-item .menu-link {
-  display: block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Vollkorn SC", serif;
-  color: black;
-}
-.panel .menu-sub-list {
-  display: none;
-}
-.panel .menu-sub-list:hover {
-  display: block;
-}
-
-.title-first {
-  font-family: "Gabriela", serif;
-}
-
-.content {
-  font-family: "Vollkorn SC", serif;
-}
-
-.title-info-block {
+.preview-block .cards {
   display: flex;
-  padding: 0px 10px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px pink;
 }
-
-.title-block {
-  background-image: url(/img/bg2.jpg);
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  height: 100vh;
-}
-
-.row {
-  display: flex;
-  width: 100%;
+.preview-block .cards .cards-photo {
+  max-width: 280px;
   height: auto;
-  border: 1px solid blue;
-  gap: 15px;
 }
-.row .column {
+
+.footer-page {
   display: flex;
   width: 100%;
-  height: 100px;
-  border: 1px solid red;
+  margin-top: 0 auto;
 }

@@ -1,11 +1,23 @@
 $font1: 'Gabriela', serif;
 $font2: 'Vollkorn SC', serif;
-$color1: yellow;
-$color2: #c2c2c2;
-$color3: black;
+$color-red: red;
+$color-orange: orange;
+$color-yellow: yellow;
+$color-green: green;
+$color-blue: blue;
+$color-pink: pink;
+$color-purple: purple;
+$color-brown: brown;
+$color-black: black;
+$color-white: white;
+$color-gray: #e3e3e3;;
+
+body {
+    font-family: $font2;
+}
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -18,4 +30,8 @@ ul {
 img {
     width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }
