@@ -3,7 +3,7 @@
    text-align: center;
 
    .cell-name {
-      color: gray;
+      color: #c0c0c0;
    }
 }
 
@@ -11,12 +11,14 @@
 .header {
    background-color: white;
    border-bottom: 1px solid $color-gray;
-   font-size: 12px;
 
    .info-panel-top {
       display: flex;
       flex-direction: row;
       padding: 10px 0;
+      line-height: 2;
+      
+      font-size: 12px;
 
       .cell {
          @extend %cell-style;
@@ -30,8 +32,8 @@
 }
 
 [class^=item] {
-   border-right: 1px solid $color-gray;
-   border-left: 1px solid $color-gray;
+   border-right: 1px solid #e7e6e6;
+   border-left: 1px solid #e7e6e6;
    margin-left: -1px;
-}
 
+}

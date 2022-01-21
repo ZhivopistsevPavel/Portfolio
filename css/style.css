@@ -338,7 +338,7 @@ template {
 }
 
 body {
-  font-family: "Vollkorn SC", serif;
+  font-family: "Noto Serif", serif;
 }
 
 .container {
@@ -366,18 +366,19 @@ a {
   text-align: center;
 }
 .header .info-panel-top .cell .cell-name {
-  color: gray;
+  color: #c0c0c0;
 }
 
 .header {
   background-color: white;
-  border-bottom: 1px solid #e3e3e3;
-  font-size: 12px;
+  border-bottom: 1px solid #e7e6e6;
 }
 .header .info-panel-top {
   display: flex;
   flex-direction: row;
   padding: 10px 0;
+  line-height: 2;
+  font-size: 12px;
 }
 .header .info-panel-top .welcome {
   flex-grow: 2;
@@ -385,25 +386,76 @@ a {
 }
 
 [class^=item] {
-  border-right: 1px solid #e3e3e3;
-  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e7e6e6;
+  border-left: 1px solid #e7e6e6;
   margin-left: -1px;
 }
 
-.preview-block {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
+/*Greeten-section*/
+.logo-title {
+  margin-top: 20px;
 }
-.preview-block .cards {
+.logo-title .logo-search-cart {
   display: flex;
-  padding: 5px;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px 1px pink;
+  justify-content: space-between;
+  align-items: center;
 }
-.preview-block .cards .cards-photo {
-  max-width: 280px;
-  height: auto;
+.logo-title .logo-search-cart .logo-btn {
+  padding: 1px;
+}
+.logo-title .logo-search-cart .logo-btn .logo-link {
+  display: flex;
+  align-items: center;
+  font-family: "Alata", sans-serif;
+}
+.logo-title .logo-search-cart .logo-btn .logo-link i {
+  font-size: 40px;
+  padding-right: 20px;
+}
+.logo-title .logo-search-cart .logo-btn .logo-link .logo-name {
+  font-size: 28px;
+  font-weight: 600;
+  color: #5959e3;
+}
+.logo-title .logo-search-cart .logo-btn .logo-link .logo-name:first-letter {
+  color: black;
+}
+
+.search-btn {
+  max-width: 800px;
+}
+.search-btn .main-search {
+  width: 500px;
+  padding: 12px 0 14px 10px;
+  background-color: #ededed;
+  opacity: 0.5;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  font-family: "Alata", sans-serif;
+}
+.search-btn .search-btn-link {
+  padding: 16px 40px 13px 40px;
+  margin-left: -6px;
+  background-color: #5959e3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: "Questrial", sans-serif;
+  color: black;
+}
+
+.cart-batn-link {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Alata", sans-serif;
+}
+.cart-batn-link i {
+  font-size: 26px;
+  margin-right: 20px;
 }
 
 .footer-page {
