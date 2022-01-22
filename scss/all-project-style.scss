@@ -3,38 +3,6 @@ $font1:'Alata', sans-serif;
 $font2: 'Noto Serif', serif;
 $font3: 'Questrial', sans-serif;
 
-$color-red: red;
-$color-orange: orange;
-$color-yellow: yellow;
-$color-green: green;
-$color-blue: blue;
-$color-pink: pink;
-$color-purple: purple;
-$color-brown: brown;
-$color-black: black;
-$color-white: white;
-$color-gray: #e7e6e6;
 
-body {
-    font-family: $font2;
-}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-}

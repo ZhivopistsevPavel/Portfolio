@@ -1,0 +1,14 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+}

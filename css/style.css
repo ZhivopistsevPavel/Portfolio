@@ -337,129 +337,110 @@ template {
   display: none;
 }
 
-body {
-  font-family: "Noto Serif", serif;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header .info-panel-top .cell {
-  flex-grow: 1;
-  text-align: center;
-}
-.header .info-panel-top .cell .cell-name {
-  color: #c0c0c0;
-}
-
 .header {
-  background-color: white;
-  border-bottom: 1px solid #e7e6e6;
+  border-bottom: 1px solid #d4d4d4;
 }
-.header .info-panel-top {
-  display: flex;
-  flex-direction: row;
-  padding: 10px 0;
-  line-height: 2;
-  font-size: 12px;
-}
-.header .info-panel-top .welcome {
-  flex-grow: 2;
-  padding-left: 30px;
-}
-
-[class^=item] {
-  border-right: 1px solid #e7e6e6;
-  border-left: 1px solid #e7e6e6;
+.header .col-2 {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
   margin-left: -1px;
 }
-
-/*Greeten-section*/
-.logo-title {
-  margin-top: 20px;
-}
-.logo-title .logo-search-cart {
-  display: flex;
-  justify-content: space-between;
+.header .header-row {
   align-items: center;
+  text-align: center;
+  font-size: 13px;
 }
-.logo-title .logo-search-cart .logo-btn {
-  padding: 1px;
-}
-.logo-title .logo-search-cart .logo-btn .logo-link {
+.header .header-row .cell {
   display: flex;
   align-items: center;
-  font-family: "Alata", sans-serif;
+  justify-content: center;
 }
-.logo-title .logo-search-cart .logo-btn .logo-link i {
-  font-size: 40px;
-  padding-right: 20px;
+.header .header-row .welcome {
+  text-align: start;
+  padding-left: 20px;
 }
-.logo-title .logo-search-cart .logo-btn .logo-link .logo-name {
-  font-size: 28px;
-  font-weight: 600;
-  color: #5959e3;
+.header .header-row .form-select {
+  width: 56%;
+  border: 0;
+  font-size: inherit;
+  margin-left: 5px;
+  padding-left: 5px;
 }
-.logo-title .logo-search-cart .logo-btn .logo-link .logo-name:first-letter {
-  color: black;
-}
-
-.search-btn {
-  max-width: 800px;
-}
-.search-btn .main-search {
-  width: 500px;
-  padding: 12px 0 14px 10px;
-  background-color: #ededed;
-  opacity: 0.5;
-  border-radius: 5px;
-  border: 1px solid #c4c4c4;
-  font-family: "Alata", sans-serif;
-}
-.search-btn .search-btn-link {
-  padding: 16px 40px 13px 40px;
-  margin-left: -6px;
-  background-color: #5959e3;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-weight: 500;
-  font-family: "Questrial", sans-serif;
-  color: black;
+.header .header-row .gray-text {
+  margin: 0;
 }
 
-.cart-batn-link {
+.nav-title-page {
+  background-color: none;
+}
+.nav-title-page .accardion {
+  background-color: cadetblue;
+}
+.nav-title-page .nav-corusel-bar {
+  margin-right: 0 auto;
+  background-color: #17408b;
+  border: 1px solid red;
+}
+.nav-title-page .nav-corusel-bar .nav-bar {
+  background-color: crimson;
+}
+.nav-title-page .nav-corusel-bar .corusel-info {
   display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Alata", sans-serif;
+  flex-direction: row;
+  background-color: cyan;
 }
-.cart-batn-link i {
-  font-size: 26px;
-  margin-right: 20px;
+.nav-title-page .nav-corusel-bar .corusel-info .corusel {
+  background-color: darkgreen;
+}
+.nav-title-page .nav-corusel-bar .corusel-info .info-bar {
+  background-color: gold;
+}
+.nav-title-page .nav-corusel-bar .corusel-info .info-bar .info-card-1 {
+  background-color: gray;
+}
+.nav-title-page .nav-corusel-bar .corusel-info .info-bar .info-card-2 {
+  background-color: #fff;
 }
 
 .footer-page {
   display: flex;
   width: 100%;
   margin-top: 0 auto;
+}
+
+.title-logo-search {
+  margin-top: 60px;
+}
+
+.title-logo {
+  padding: 0;
+}
+.title-logo .logo-btn {
+  font-size: 200%;
+}
+.title-logo .logo-btn .logo-link {
+  text-decoration: none;
+}
+
+.cart-top {
+  border: 0;
+  color: blue;
+  background-color: white;
+  font-size: 20px;
+  padding: 0;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-group-vertical > .btn, .btn-group > .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 0;
 }

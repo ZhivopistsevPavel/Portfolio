@@ -1,39 +1,38 @@
-%cell-style {
-   flex-grow: 1;
-   text-align: center;
-
-   .cell-name {
-      color: #c0c0c0;
-   }
-}
-
-
 .header {
-   background-color: white;
-   border-bottom: 1px solid $color-gray;
+    border-bottom: 1px solid rgb(212, 212, 212);
 
-   .info-panel-top {
-      display: flex;
-      flex-direction: row;
-      padding: 10px 0;
-      line-height: 2;
-      
-      font-size: 12px;
+    .col-2 {
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        margin-left: -1px;
+    }
 
-      .cell {
-         @extend %cell-style;
-      }
+    .header-row {
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
 
-      .welcome {
-         flex-grow: 2;
-         padding-left: 30px;
-      }
-   }
-}
+        .cell {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-[class^=item] {
-   border-right: 1px solid #e7e6e6;
-   border-left: 1px solid #e7e6e6;
-   margin-left: -1px;
+        .welcome {
+            text-align: start;
+            padding-left: 20px;
+        }
 
+        .form-select {
+            width: 56%;
+            border: 0;
+            font-size: inherit;
+            margin-left: 5px;
+            padding-left: 5px;
+        }
+
+        .gray-text {
+            margin: 0;
+        }
+    }
 }
