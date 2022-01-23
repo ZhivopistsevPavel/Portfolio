@@ -1,8 +1,6 @@
-/node_modulesgit
+/node_modules
 gulpfile.js
 package-lock.json   
 package.json
 /.vscode
-/браслеты
-/бусы
-/кольца
+
