@@ -1,23 +1,55 @@
 .title-logo-search {
-    margin-top: 60px;
+    margin: 100px 0;
 }
 
 .title-logo {
     padding: 0;
 
     .logo-btn {
-        font-size: 200%;
+        display: flex;
+        padding: 0;
 
         .logo-link {
+            display: flex;
+            align-items: center;
+            font-size: 45px;
             text-decoration: none;
+            color: purple;
+            gap: 10px;
+        }
+
+        .title-link {
+            font-size: 50%;
+            color: black;
+            margin: 0;
         }
     }
-}   
-
-.cart-top {
-    border: 0;
-    color: blue;
-    background-color: white;
-    font-size: 20px;
-    padding: 0;
 }
+
+.cart-btn {
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    padding: 0 !important;
+
+    .cart-top {
+        border: 0;
+        background-color: white;
+        font-size: 25px;
+        padding: 0;
+    }
+
+}
+
+.top-input {
+    background-color: gainsboro;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+

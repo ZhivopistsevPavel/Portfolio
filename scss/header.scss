@@ -1,11 +1,6 @@
 .header {
     border-bottom: 1px solid rgb(212, 212, 212);
-
-    .col-2 {
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
-        margin-left: -1px;
-    }
+    padding: 5px 0;
 
     .header-row {
         align-items: center;
@@ -16,6 +11,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            border-left: 1px solid ;
+        }
+
+        .cell:last-child {
+            border-right: 1px solid;
         }
 
         .welcome {
@@ -24,11 +24,9 @@
         }
 
         .form-select {
-            width: 56%;
             border: 0;
             font-size: inherit;
-            margin-left: 5px;
-            padding-left: 5px;
+            padding: 0 5px;
         }
 
         .gray-text {
@@ -36,3 +34,4 @@
         }
     }
 }
+

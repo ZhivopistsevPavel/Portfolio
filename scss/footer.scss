@@ -1,5 +1,108 @@
-.footer-page {
-    display: flex;
-    width: 100%;
-    margin-top: 0 auto;
+.brown-footer {
+    background-color: gainsboro;
+
+    .footer-cell {
+        margin: 50px 0;
+        
+        .title-footer {
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .footer-list {
+            font-size: 13px;
+        }
+    }
+
+    .footer-link {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: gray;
+        font-size: 14px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 }
+
+.blue-point::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #5c5cda;
+    margin-bottom:  2px;
+    margin-right: 10px;
+}
+
+.contacts {
+    font-weight: 700;
+}
+
+.contact-btns {
+    border-bottom: 1px solid rgb(153, 153, 153);
+    border-top: 1px solid rgb(153, 153, 153);
+    padding: 30px 0;
+}
+
+.social-network-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+    &.youtube-icon {
+        background-color: red;
+    }
+
+    &.google-icon {
+        background-color: orange;
+    }
+
+    &.twitter-icon {
+        background-color: #5c5cda;
+    }
+
+    &.facebook-icon {
+        background-color: blue;
+    }
+}
+
+.social-network-icon:hover {
+    color: gainsboro;
+    transition: 0.5s ease all;
+
+    &.youtube-icon {
+        background-color: rgb(199, 4, 4);
+    }
+
+    &.google-icon {
+        background-color: rgb(190, 124, 2);
+    }
+
+    &.twitter-icon {
+        background-color: #4545a3;
+    }
+
+    &.facebook-icon {
+        background-color: rgb(1, 1, 194);
+    }    
+}
+
+
+.footer-icon-group {
+    align-items: center;
+    font-size: 40px;
+}
+
+
