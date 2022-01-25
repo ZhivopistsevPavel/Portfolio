@@ -1,20 +1,20 @@
 .title-logo-search {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .title-logo {
-    padding: 0;
+
 
     .logo-btn {
         display: flex;
-        padding: 0;
+
 
         .logo-link {
             display: flex;
             align-items: center;
-            font-size: 45px;
+            font-size: 55px;
             text-decoration: none;
-            color: purple;
+            color: rgb(77, 77, 168);
             gap: 10px;
         }
 
@@ -36,20 +36,31 @@
     text-transform: uppercase;
     font-weight: 500;
     color: black;
-    padding: 0 !important;
 
     .cart-top {
         border: 0;
         background-color: white;
         font-size: 25px;
-        padding: 0;
     }
 
 }
 
 .top-input {
     background-color: gainsboro;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 5px;
 }
 
+#button-addon2 {
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: rgb(77, 77, 168);
+    border: none;
+}
+
+#button-addon2:hover {
+    color: white;
+    background-color: rgb(56, 56, 153);
+}

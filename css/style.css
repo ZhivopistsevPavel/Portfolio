@@ -339,7 +339,7 @@ template {
 
 .header {
   border-bottom: 1px solid #d4d4d4;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .header .header-row {
   align-items: center;
@@ -350,10 +350,10 @@ template {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: 1px solid;
+  border-left: 1px solid #d4d4d4;
 }
 .header .header-row .cell:last-child {
-  border-right: 1px solid;
+  border-right: 1px solid #d4d4d4;
 }
 .header .header-row .welcome {
   text-align: start;
@@ -368,40 +368,21 @@ template {
   margin: 0;
 }
 
-.nav-title-page {
-  background-color: none;
+.border-dotted {
+  height: 3px;
+  border: 1px dotted #c2c2c2;
 }
-.nav-title-page .accardion {
-  background-color: cadetblue;
+
+.accordion {
+  border: 4px solid #e0e0e0;
 }
-.nav-title-page .nav-corusel-bar {
-  margin-right: 0 auto;
-  background-color: #17408b;
-  border: 1px solid red;
-}
-.nav-title-page .nav-corusel-bar .nav-bar {
-  background-color: crimson;
-}
-.nav-title-page .nav-corusel-bar .corusel-info {
-  display: flex;
-  flex-direction: row;
-  background-color: cyan;
-}
-.nav-title-page .nav-corusel-bar .corusel-info .corusel {
-  background-color: darkgreen;
-}
-.nav-title-page .nav-corusel-bar .corusel-info .info-bar {
-  background-color: gold;
-}
-.nav-title-page .nav-corusel-bar .corusel-info .info-bar .info-card-1 {
-  background-color: gray;
-}
-.nav-title-page .nav-corusel-bar .corusel-info .info-bar .info-card-2 {
-  background-color: #fff;
+
+.top-panel {
+  padding: 14px 0;
 }
 
 .brown-footer {
-  background-color: gainsboro;
+  background-color: #ededed;
 }
 .brown-footer .footer-cell {
   margin: 50px 0;
@@ -416,9 +397,7 @@ template {
 }
 .brown-footer .footer-link {
   text-decoration: none;
-  text-transform: capitalize;
   color: gray;
-  font-size: 14px;
 }
 .brown-footer ul {
   list-style: none;
@@ -442,20 +421,20 @@ template {
 }
 
 .contact-btns {
-  border-bottom: 1px solid #999999;
-  border-top: 1px solid #999999;
+  border-bottom: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
   padding: 30px 0;
 }
 
 .social-network-icon {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 18px;
 }
 .social-network-icon.youtube-icon {
@@ -494,22 +473,18 @@ template {
 }
 
 .title-logo-search {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
-.title-logo {
-  padding: 0;
-}
 .title-logo .logo-btn {
   display: flex;
-  padding: 0;
 }
 .title-logo .logo-btn .logo-link {
   display: flex;
   align-items: center;
-  font-size: 45px;
+  font-size: 55px;
   text-decoration: none;
-  color: purple;
+  color: #4d4da8;
   gap: 10px;
 }
 .title-logo .logo-btn .title-link {
@@ -527,19 +502,31 @@ template {
   text-transform: uppercase;
   font-weight: 500;
   color: black;
-  padding: 0 !important;
 }
 .cart-btn .cart-top {
   border: 0;
   background-color: white;
   font-size: 25px;
-  padding: 0;
 }
 
 .top-input {
   background-color: gainsboro;
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 5px;
+}
+
+#button-addon2 {
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  background-color: #4d4da8;
+  border: none;
+}
+
+#button-addon2:hover {
+  color: white;
+  background-color: #383899;
 }
 
 .accordion {

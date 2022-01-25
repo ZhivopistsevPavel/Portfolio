@@ -1,40 +1,12 @@
-.nav-title-page {
-    background-color: none;
+.border-dotted {
+    height: 3px;
+    border: 1px dotted #c2c2c2;
+}
 
-    .accardion {
-        background-color: cadetblue;
+.accordion {
+    border:  4px solid #e0e0e0;
+}
 
-    }
-
-    .nav-corusel-bar {
-        margin-right: 0 auto;
-        background-color: rgb(23, 64, 139);
-        border: 1px solid red;
-
-        .nav-bar {
-            background-color: crimson;
-        }
-
-        .corusel-info {
-            display: flex;
-            flex-direction: row;
-            background-color: cyan;
-
-            .corusel {
-                background-color: darkgreen;
-            }
-
-            .info-bar {
-                background-color: gold;
-
-                .info-card-1 {
-                    background-color: gray;
-                }
-
-                .info-card-2 {
-                    background-color: #fff;
-                }
-            }
-        }
-    }
+.top-panel {
+    padding: 14px 0;
 }

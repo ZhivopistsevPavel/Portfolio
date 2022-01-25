@@ -1,5 +1,5 @@
 .brown-footer {
-    background-color: gainsboro;
+    background-color: #ededed;
 
     .footer-cell {
         margin: 50px 0;
@@ -17,9 +17,9 @@
 
     .footer-link {
         text-decoration: none;
-        text-transform: capitalize;
+        
         color: gray;
-        font-size: 14px;
+        
     }
 
     ul {
@@ -45,20 +45,20 @@
 }
 
 .contact-btns {
-    border-bottom: 1px solid rgb(153, 153, 153);
-    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
     padding: 30px 0;
 }
 
 .social-network-icon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 18px;
 
     &.youtube-icon {
