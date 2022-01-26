@@ -377,6 +377,12 @@ template {
   padding: 14px 0;
 }
 
+.tourmaline {
+  width: 90px;
+  height: 90px;
+  padding: 18px;
+}
+
 .brown-footer {
   background-color: #ededed;
 }
