@@ -383,6 +383,14 @@ template {
   padding: 18px;
 }
 
+.custom-color {
+  color: #6565d4;
+}
+
+.subscribe-blue {
+  background-color: #6565d4;
+}
+
 .brown-footer {
   background-color: #ededed;
 }
@@ -413,7 +421,7 @@ template {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #5c5cda;
+  background-color: #6565d4;
   margin-bottom: 2px;
   margin-right: 10px;
 }
@@ -446,7 +454,7 @@ template {
   background-color: orange;
 }
 .social-network-icon.twitter-icon {
-  background-color: #5c5cda;
+  background-color: #6565d4;
 }
 .social-network-icon.facebook-icon {
   background-color: blue;
@@ -516,17 +524,34 @@ template {
   border-radius: 5px;
 }
 
-.accordion {
-  display: flex;
-  flex-direction: column;
+.customes-button {
+  background-color: #6565d4;
 }
 
-.btn-group-vertical > .btn, .btn-group > .btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: black;
-  background-color: white;
-  border: none;
-  border-radius: 0;
+.aside-promo {
+  margin-left: calc(var(--bs-gutter-x) * 0.5);
+  padding: 0 calc(var(--bs-gutter-x) * 0.5);
+}
+
+.img-300 {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gray-btn-color {
+  background-color: #ededed;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.blog-item::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
 }
