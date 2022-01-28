@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Noto+Serif&family=Questrial&display=swap"
-  rel="stylesheet">
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -62,7 +62,8 @@
             <div class="input-group">
               <input type="text" class="col-sm-6 form-control border bg-light opacity-50 py-2 fs-6"
                 placeholder="Search for item..." aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-primary rounded px-4 customes-button" type="button" id="button-addon2">Search</button>
+              <button class="btn btn-primary rounded px-4 customes-button" type="button"
+                id="button-addon2">Search</button>
             </div>
           </div>
           <div class="col-2 cart-btn">
@@ -209,160 +210,233 @@
       </div>
     </nav>
 
-    <section>
+    <section class="product-card-section">
       <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <p class="h5">Deal of the day</p>
-            <div class="d-flex flex-column">
-              <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-              <h5>New Templates</h5>
-              <p class="h6">2/december/2022</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-              <button>read more</button>
+        <div class="row py-4">
+          <div class="col-4 d-flex flex-column">
+            <p class="py-4 m-0 fs-5 fw-bolder text-uppercase custom-color">deal of the day</p>
+            <div class="card border-0 d-flex align-items-end p-3 h-100">
+              <span class="badge fs-5 bg-danger">New</span>
+              <div class="d-flex flex-column align-items-center card-content">
+                <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <ul class="list-unstyled d-flex text-warning star-list">
+                  <li class="star-item"><i class="fas fa-star"></i></li>
+                  <li class="star-item"><i class="fas fa-star"></i></li>
+                  <li class="star-item"><i class="fas fa-star"></i></li>
+                  <li class="star-item"><i class="fas fa-star"></i></li>
+                  <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                </ul>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ratione tempora laboriosam atque debitis. Ipsum nesciunt voluptatum ullam dicta nam!</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                <button
+                class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                more</button>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
             </div>
           </div>
           <div class="col-8">
-            <p class="h5">Deal of the day</p>
+            <p class="py-4 m-0 fs-5 fw-bolder text-uppercase"><span class="custom-color">featured </span>product</p>
             <div class="row">
-              <div class="col-4">
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+              <div class="col-4 d-flex flex-column gap-4">
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+              <div class="col-4 d-flex flex-column gap-4">
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+              <div class="col-4 d-flex flex-column gap-4">
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
-                <div class="d-flex flex-column">
-                  <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100" alt="#">
-                  <h5>New Templates</h5>
-                  <p class="h6">2/december/2022</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius accusamus
-                    aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button>read more</button>
+                <div class="card border-0 align-items-end p-3">
+                  <span class="badge fs-5 bg-danger">New</span>
+                  <div class="d-flex flex-column align-items-center card-content">
+                    <img src="/img/card-3.jpg" class="d-block rounded w-75" alt="#">
+                    <p class="h6 custom-color">Gravida Et Mattis</p>
+                    <ul class="list-unstyled d-flex text-warning star-list">
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star"></i></li>
+                      <li class="star-item"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+                    <button
+                      class="btn btn-light rounded-pill w-auto px-4 py-2 mb-3 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                      more</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div>             
     </section>
 
     <section>
       <div class="container">
-        <div class="row">
-          <div class="col-4 d-flex flex-column">
+        <div class="row my-5">
+          <div class="col-4 d-flex flex-column gap-4">
             <p class="h5"><span class="custom-color">Bestseller </span>Bestseller Product</p>
-            <div class="d-flex flex-row border-0">
-              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column justify-content-center name-price">
+            <div class="d-flex align-items-center">
+              <img src="/img/card-3.jpg" class="d-block rounded tourmaline" alt="#">
+              <div class="name-price">
                 <p class="h6 custom-color">Gravida Et Mattis</p>
                 <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
               </div>
             </div>
-            <div class="d-flex flex-row">
-              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
+            <div class="d-flex align-items-center">
+              <img src="/img/card-2.jpg" class="d-block rounded tourmaline" alt="#">
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
               </div>
             </div>
-            <div class="d-flex flex-row">
+            <div class="d-flex align-items-center">
               <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <p class="h5">Bestseller Product</p>
-            <div class="d-flex flex-row">
-              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
-              </div>
-            </div>
-            <div class="d-flex flex-row">
-              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
-              </div>
-            </div>
-            <div class="d-flex flex-row">
-              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <p class="h5">Bestseller Product</p>
-            <div class="d-flex flex-row">
+
+          <div class="col-4 d-flex flex-column gap-4">
+            <p class="h5"><span class="custom-color">Mostviewed</span> Product</p>
+            <div class="d-flex align-items-center">
               <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through text-secondary">$117.00</span></p>
               </div>
             </div>
-            <div class="d-flex flex-row">
+            <div class="d-flex align-items-center">
               <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
+              <div class=" name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through text-secondary">$117.00</span></p>
               </div>
             </div>
-            <div class="d-flex flex-row">
+            <div class="d-flex align-items-center">
               <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
-              <div class="d-flex flex-column name-price">
-                <p class="h6">Gravida Et Mattis</p>
-                <p class="h6">$99.00</p>
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through text-secondary">$117.00</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 d-flex flex-column gap-4">
+            <p class="h5"><span class="custom-color">New</span> Product</p>
+            <div class="d-flex align-items-center">
+              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="/img/card-1.jpg" class="d-block rounded tourmaline" alt="#">
+              <div class="name-price">
+                <p class="h6 custom-color">Gravida Et Mattis</p>
+                <p class="h6">$99.00 <span class="text-decoration-line-through">$117.00</span></p>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
 
     <section class="subscribe-blue">
@@ -376,7 +450,8 @@
             <div class="input-group gap-4">
               <input type="text" class="form-control rounded-pill" placeholder="Enter your email address"
                 aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-warning rounded-pill text-white" type="button" id="button-addon2">Subscribe</button>
+              <button class="btn btn-warning rounded-pill text-white" type="button"
+                id="button-addon2">Subscribe</button>
             </div>
           </div>
         </div>
@@ -397,7 +472,8 @@
                   <p class="p-1 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius
                     accusamus
                     aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button class="btn btn-light rounded-pill w-auto px-4 py-2 mb-5 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                  <button
+                    class="btn btn-light rounded-pill w-auto px-4 py-2 mb-5 text-uppercase fw-bolder fs-6 gray-btn-color">read
                     more</button>
                 </div>
               </div>
@@ -409,7 +485,8 @@
                   <p class="p-1 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis, ducimus eius
                     accusamus
                     aliquid explicabo eligendi voluptatum iste aperiam ullam.</p>
-                  <button class="btn btn-light rounded-pill w-auto px-4 py-2 mb-5 text-uppercase fw-bolder fs-6 gray-btn-color">read
+                  <button
+                    class="btn btn-light rounded-pill w-auto px-4 py-2 mb-5 text-uppercase fw-bolder fs-6 gray-btn-color">read
                     more</button>
                 </div>
               </div>
@@ -420,11 +497,20 @@
               <p class="fs-5 fw-bolder text-uppercase">Our <span class="custom-color">Store</span></p>
               <div class="">
                 <img src="/img/post-pic-1.jpg.crdownload" class="d-block rounded w-100 img-300" alt="#">
-                <ul class="list-unstyled">
-                  <li class="blog-item"><a class="contact-link" href="#"><i class="fas fa-map-marker-alt"></i></a><div class=""><span class="contacts">Addres:</span> Lorem ipsum dolor sit amet Lorem
-                    ipsum dolor sit amet.</div></li>
-                  <li class="blog-item"><i class="fas fa-phone-alt"></i><span class="contacts">Phone:</span> (800)1234567</li>
-                  <li class="blog-item"><i class="far fa-envelope"></i><span class="contacts">Email:</span> zhivopistsevpavel@gmail.com</li>
+                <ul class="my-5 list-unstyled">
+                  <li class="d-flex py-4 gap-1 align-items-center blog-item"><a class="d-block awesome-icon-bg"
+                      href="#"><i class="fas fa-map-marker-alt address-icon"></i></a>
+                    <div class="text-truncate"><span class="contacts">Addres:</span> Lorem ipsum dolor sit amet lorem10
+                    </div>
+                  </li>
+                  <li class="d-flex py-4 gap-1 align-items-center blog-item"><a class="d-block awesome-icon-bg"
+                      href="#"><i class="fas fa-phone-alt address-icon"></i></a>
+                    <div class="text-truncate"><span class="contacts">Phone:</span> (800)1234567</div>
+                  </li>
+                  <li class="d-flex py-4 gap-1 align-items-center blog-item"><a class="d-block awesome-icon-bg"
+                      href="#"><i class="far fa-envelope address-icon"></i></a>
+                    <div class="text-truncate"><span class="contacts">Email:</span> zhivopistsevpavel@gmail.com</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -450,8 +536,7 @@
           <ul class="d-flex gap-2 flex-column footer-list">
             <li class="d-flex gap-2 align-items-center footer-item"><a class="social-network-icon twitter-icon"
                 href="#"><i class="fas fa-home"></i></a>
-              <p class="m-0 w-75 text-truncate"><span class="contacts">Addres:</span> Lorem ipsum dolor sit amet Lorem
-                ipsum dolor sit amet.</p>
+              <p class="m-0 w-75 text-truncate"><span class="contacts">Addres:</span> Lorem ipsum dolor sit amet</p>
             </li>
             <li class="d-flex gap-2 align-items-center footer-item"><a class="social-network-icon twitter-icon"
                 href="#"><i class="fas fa-phone-alt"></i></a>

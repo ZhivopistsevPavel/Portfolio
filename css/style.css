@@ -391,6 +391,14 @@ template {
   background-color: #6565d4;
 }
 
+.product-card-section {
+  background-color: #ededed;
+}
+
+.card .card-content {
+  margin: 0 auto;
+}
+
 .brown-footer {
   background-color: #ededed;
 }
@@ -547,11 +555,19 @@ template {
   text-decoration: none;
 }
 
-.blog-item::before {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+.awesome-icon-bg {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: #ededed;
+  position: relative;
+  text-align: center;
+}
+.awesome-icon-bg .address-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  color: black;
 }
