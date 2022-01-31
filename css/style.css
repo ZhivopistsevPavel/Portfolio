@@ -395,10 +395,40 @@ template {
   background-color: #ededed;
 }
 
+.card {
+  border: 0;
+  align-items: center;
+  gap: 9px;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+.card .badge {
+  align-self: end;
+}
+.card .product-card-picture {
+  width: 170px;
+  height: 170px;
+}
+.card .price-cash {
+  font-weight: 700;
+  font-size: 14px;
+}
+.card .price-cash .outcash {
+  font-size: 12px;
+  color: #ededed;
+}
 .card .card-content {
   margin: 0 auto;
 }
-
+.card .gray-btn-color {
+  font-size: 10px;
+  padding: 9px 15px;
+  font-weight: 800;
+}
+.card .star-list {
+  font-size: 10px;
+  gap: 3px;
+}
 .brown-footer {
   background-color: #ededed;
 }
