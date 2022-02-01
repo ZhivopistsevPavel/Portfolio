@@ -3,8 +3,48 @@
     border: 1px dotted #c2c2c2;
 }
 
-
-
 .top-panel {
+    gap: 25px;
+}
+
+.dropend {
+    width: 100%;
+    flex: 1;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    .btn {
+        color: black;
+        background-color: white;
+        border: none;
+        border-radius: 0;
+        padding: 24px 40px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn:active {
+        border: 0;
+    }
+}
+
+.nav-link {
     padding: 14px 0;
+}
+
+.nav-link:first-child {
+    color: $blue-color-site;
+}
+
+.burger-link {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 13px 40px;
+}
+
+.border-dotted {
+    margin: 0 auto;
 }
