@@ -388,7 +388,6 @@ template {
   background-color: white;
   border: none;
   border-radius: 0;
-  padding: 24px 40px;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -397,20 +396,14 @@ template {
   border: 0;
 }
 
-.nav-link {
-  padding: 14px 0;
-}
-
 .nav-link:first-child {
-  color: #6565d4;
+  color: #3d74b8;
 }
 
 .burger-link {
   text-decoration: none;
   display: flex;
-  gap: 10px;
   align-items: center;
-  padding: 13px 40px;
 }
 
 .border-dotted {
@@ -424,11 +417,11 @@ template {
 }
 
 .custom-color {
-  color: #6565d4;
+  color: #3d74b8;
 }
 
 .subscribe-blue {
-  background-color: #6565d4;
+  background-color: #3d74b8;
 }
 
 .product-card-section {
@@ -516,7 +509,7 @@ template {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #6565d4;
+  background-color: #3d74b8;
   margin-bottom: 2px;
   margin-right: 10px;
 }
@@ -549,7 +542,7 @@ template {
   background-color: orange;
 }
 .social-network-icon.twitter-icon {
-  background-color: #6565d4;
+  background-color: #3d74b8;
 }
 .social-network-icon.facebook-icon {
   background-color: blue;
@@ -575,6 +568,11 @@ template {
 .footer-icon-group {
   align-items: center;
   font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .title-logo-search {
@@ -620,7 +618,7 @@ template {
 }
 
 .customes-button {
-  background-color: #6565d4;
+  background-color: #3d74b8;
 }
 
 .aside-promo {
