@@ -377,37 +377,33 @@ template {
   gap: 25px;
 }
 
-.dropend {
+.left-navbar-dropdawnmenu {
   width: 100%;
-  flex: 1;
-  align-items: stretch;
-  flex-wrap: wrap;
+  padding: 0 40px;
+  margin: 0;
 }
-.dropend .btn {
+.left-navbar-dropdawnmenu .all-category-link {
+  text-decoration: none;
+}
+.left-navbar-dropdawnmenu .btn-group {
+  flex-direction: column;
+}
+.left-navbar-dropdawnmenu .btn-group .item-category-cell {
+  padding: 24px 0;
+  border-bottom: 1px solid #ededed;
+  font-size: 15px;
+  font-weight: 500;
+}
+.left-navbar-dropdawnmenu .btn-group .asidebar-link {
   color: black;
-  background-color: white;
-  border: none;
-  border-radius: 0;
+  text-decoration: none;
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
-.dropend .btn:active {
-  border: 0;
-}
 
 .nav-link:first-child {
   color: #3d74b8;
-}
-
-.burger-link {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
-.border-dotted {
-  margin: 0 auto;
 }
 
 .tourmaline {
@@ -573,6 +569,12 @@ template {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .title-logo-search {
@@ -655,4 +657,24 @@ ul {
   margin: 0 auto;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+.image-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.image-info .image-title {
+  font-size: 400%;
+  font-weight: 800;
+  color: #3d74b8;
+}
+.image-info .carousel-button {
+  color: white;
+  background-color: #3d74b8;
+  font-weight: 700;
+  padding: 8px 20px 10px 20px;
+  box-shadow: 0px 4px 20px #3d74b8;
 }

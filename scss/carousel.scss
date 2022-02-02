@@ -1,0 +1,21 @@
+.image-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+    .image-title {
+        font-size: 400%;
+        font-weight: 800;
+        color: $blue-color-site;
+    }
+
+    .carousel-button {
+        color: white;
+        background-color: $blue-color-site;
+        font-weight: 700;
+        padding: 8px 20px 10px 20px;
+        box-shadow: 0px 4px 20px $blue-color-site;
+    }
+}
