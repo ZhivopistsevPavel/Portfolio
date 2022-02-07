@@ -1,22 +1,14 @@
-// let name = 'Pavel';
-// let age = 36; 
+// let section = ['header' , 'nav' , 'main' , 'footer'] ;
 
-// const header = document.querySelector(".header");
-
-// console.log(header);
-
-// window.addEventListener('scroll', function() {
-//     let scrollPos = window.scrollY;
-
-//     if(scrollPos > 0) {
-//         header.classList.add('red');
-//     } else {
-//         header.classList.remove('red');
-//     }       
+// section.forEach( (index, item, array) => {
+//     alert(`${index} место ${item} в ${array}`)
 // });
 
-// name = prompt('как твоёимя?', '');
-// alert(name);
 
+// let names = 'Vasya , Masha , Sasha';
 
+// let arr = names.split(', ');
 
+// for (let name of arr) {
+//     alert(`Privet  ${name}`);
+// }
