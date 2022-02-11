@@ -5,6 +5,15 @@
 
 .top-panel {
     gap: 25px;
+
+    .nav-link {
+        padding: 10px 0;
+    }
+
+    .nav-link:first-child {
+        color: $blue-color-site;
+        margin-left: 10px;
+    }
 }
 
 .left-navbar-dropdawnmenu {
@@ -37,14 +46,8 @@
             align-items: center;
         }
     }
-
+    
 }
 
-.nav-link {
-    padding: 10px 0;
-}
 
-.nav-link:first-child {
-    color: $blue-color-site;
-    margin-left: 10px;
-}
+

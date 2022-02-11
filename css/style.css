@@ -337,6 +337,14 @@ template {
   display: none;
 }
 
+.custom-color {
+  color: #3d74b8;
+}
+
+.subscribe-blue {
+  background-color: #3d74b8;
+}
+
 .header {
   border-bottom: 1px solid #d4d4d4;
   padding: 10px 0;
@@ -376,6 +384,13 @@ template {
 .top-panel {
   gap: 25px;
 }
+.top-panel .nav-link {
+  padding: 10px 0;
+}
+.top-panel .nav-link:first-child {
+  color: #3d74b8;
+  margin-left: 10px;
+}
 
 .left-navbar-dropdawnmenu {
   width: 100%;
@@ -402,98 +417,75 @@ template {
   align-items: center;
 }
 
-.nav-link {
-  padding: 10px 0;
-}
-
-.nav-link:first-child {
-  color: #3d74b8;
-  margin-left: 10px;
-}
-
-.tourmaline {
+.card-size-pic {
   width: 90px;
   height: 90px;
   padding: 18px;
 }
 
-.custom-color {
-  color: #3d74b8;
-}
-
-.subscribe-blue {
-  background-color: #3d74b8;
-}
-
 .product-card-section {
   background-color: #ededed;
 }
-
-.stack-card {
+.product-card-section .stack-card {
   flex-direction: column;
-  gap: 25px;
 }
-.stack-card .card {
+
+.card {
   border: 0;
   align-items: center;
   gap: 9px;
   padding: 10px;
-  padding-bottom: 25px;
+  margin: 12px 0;
 }
-.stack-card .card .badge {
+.card .badge {
   align-self: end;
   position: relative;
   background-color: #dc3545;
 }
-.stack-card .card .product-card-picture {
+.card .badge::before {
+  content: "";
+  position: absolute;
+  border: 5px solid #dc3545;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  transform: translate(-50%, -50%) rotate(137deg);
+  left: 9%;
+  top: 50%;
+}
+.card .badge.sale {
+  background-color: #3d74b8;
+}
+.card .badge.sale:before {
+  border-right-color: #3d74b8;
+  border-bottom-color: #3d74b8;
+}
+.card .card-information {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.card .card-information .product-card-picture {
   width: 170px;
   height: 170px;
 }
-.stack-card .card .card-content {
-  margin: 0 auto;
-}
-.stack-card .card .gray-btn-color {
+.card .card-information .gray-btn-color {
   font-size: 10px;
   padding: 9px 15px;
   font-weight: 800;
 }
-.stack-card .card .star-list {
+.card .card-information .star-list {
   font-size: 10px;
   gap: 3px;
 }
-.stack-card .card .price-cash {
+.card .card-information .price-cash {
   font-weight: 700;
   font-size: 14px;
   margin: 0;
 }
-.stack-card .card.sale .badge {
-  background-color: #3d74b8;
-}
-.stack-card .card.sale .outcash {
+.card .outcash {
   font-size: 12px;
   color: #bcbbbb;
-}
-
-.badge:before {
-  content: "";
-  position: absolute;
-  border: 7px solid #dc3545;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  transform: translate(-50%, -50%) rotate(137deg);
-  left: 12%;
-  top: 50%;
-}
-
-.badge .sale:before {
-  content: "";
-  position: absolute;
-  border: 7px solid #3d74b8;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  transform: translate(-50%, -50%) rotate(137deg);
-  left: 12%;
-  top: 50%;
 }
 
 @media (max-width: 767px) {
