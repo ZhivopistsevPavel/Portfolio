@@ -420,7 +420,7 @@ template {
 .card-size-pic {
   width: 90px;
   height: 90px;
-  padding: 18px;
+  margin: 0 25px;
 }
 
 .product-card-section {
@@ -469,23 +469,24 @@ template {
   width: 170px;
   height: 170px;
 }
-.card .card-information .gray-btn-color {
-  font-size: 10px;
-  padding: 9px 15px;
-  font-weight: 800;
-}
 .card .card-information .star-list {
   font-size: 10px;
   gap: 3px;
 }
-.card .card-information .price-cash {
+.price-cash {
   font-weight: 700;
   font-size: 14px;
   margin: 0;
 }
-.card .outcash {
+.price-cash .outcash {
   font-size: 12px;
   color: #bcbbbb;
+}
+
+.gray-btn-color {
+  font-size: 10px;
+  padding: 9px 15px;
+  font-weight: 800;
 }
 
 @media (max-width: 767px) {
@@ -737,4 +738,29 @@ img {
   .carousel-item {
     font-size: 50%;
   }
+}
+.tabs-menu .tab-barside {
+  border: 1px solid #ededed;
+}
+.tabs-menu .tab-barside .tab-barside-item {
+  flex-basis: 11.11%;
+}
+.tabs-menu .tab-barside .tab-barside-link {
+  width: 100%;
+  height: 75px;
+  border-left: 1px solid #ededed;
+  border-radius: 0;
+}
+.tabs-menu .tab-pane {
+  border: 1px solid #ededed;
+}
+.tabs-menu .tab-pane .tabs-card-info {
+  display: inline-block;
+  align-items: center;
+  padding: 0 20px;
+  margin: 20px 0;
+  width: 33%;
+}
+.tabs-menu .tab-pane .tabs-card-wrapper {
+  display: flex;
 }

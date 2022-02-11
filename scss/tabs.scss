@@ -1,13 +1,40 @@
-.tabs-wrapper {
+.tabs-menu {
+
 
     .tab-barside {
+        border: 1px solid $gray-color;
 
         .tab-barside-item {
-            
-        }
-
-        .tab-nav-link {
+            flex-basis: 11.11%;
 
         }
+
+        .tab-barside-link {
+            width: 100%;
+            height: 75px;
+            border-left: 1px solid $gray-color;
+            border-radius: 0;
+        }
+    }
+
+    .tab-pane {
+        
+        border: 1px solid $gray-color;
+
+        .tabs-card-info {
+            display: inline-block;
+            align-items: center;
+            padding: 0 20px;
+            margin: 20px 0;
+            width: 33%;
+        }
+
+        .tabs-card-wrapper {
+            display: flex;
+
+        }
+
+
+
     }
 }
