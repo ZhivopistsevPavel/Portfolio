@@ -41,11 +41,6 @@
         .fresh-blog-content {}
     }
 
-    .blog-wrap {
-        display: flex;
-        gap: 20px;
-    }
-
     .blog-addres-info {}
 
     .gray-btn-color {
@@ -71,4 +66,15 @@
     .blog-title {
         font-size: 16px;
     }
+}
+
+@media (max-width:768px) {
+    .img-300 {
+        height: 250px;
+    }
+
+    .blog-wrap {
+        gap: 50px;
+    }
+    
 }

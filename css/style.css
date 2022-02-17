@@ -386,10 +386,13 @@ template {
 }
 .top-panel .nav-link {
   padding: 10px 0;
+  color: black;
 }
 .top-panel .nav-link:first-child {
-  color: #3d74b8;
   margin-left: 10px;
+}
+.top-panel .nav-link:hover {
+  color: #3d74b8;
 }
 
 .left-navbar-dropdawnmenu {
@@ -686,10 +689,6 @@ img {
   padding: 0 20px;
   padding-bottom: 20px;
 }
-.blog-wrapper .blog-wrap {
-  display: flex;
-  gap: 20px;
-}
 .blog-wrapper .gray-btn-color {
   background-color: #ededed;
 }
@@ -711,6 +710,15 @@ img {
 
   .blog-title {
     font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .img-300 {
+    height: 250px;
+  }
+
+  .blog-wrap {
+    gap: 50px;
   }
 }
 .image-info {

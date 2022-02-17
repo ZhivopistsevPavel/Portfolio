@@ -8,11 +8,15 @@
 
     .nav-link {
         padding: 10px 0;
+        color: black;
     }
 
     .nav-link:first-child {
-        color: $blue-color-site;
         margin-left: 10px;
+    }
+
+    .nav-link:hover {
+        color: $blue-color-site;
     }
 }
 
