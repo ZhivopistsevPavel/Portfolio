@@ -1,16 +1,10 @@
 .aside-promo {
-    margin-left: calc(var(--bs-gutter-x) * .5);
     padding: 0 calc(var(--bs-gutter-x) * .5);
-}
 
-.img-300 {
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.gray-btn-color {
-    background-color: $gray-color;
+    .text-information {
+        font-size: 11px;
+        font-weight: 600;
+    }
 }
 
 .contact-link {
@@ -24,6 +18,7 @@
     background-color: $gray-color;
     position: relative;
     text-align: center;
+    margin-right: 10px;
 
     .address-icon {
         position: absolute;
@@ -32,6 +27,48 @@
         margin: 0 auto;
         transform: translate(-50%, -50%);
         color: black;
-        
+    }
+
+}
+
+
+.blog-wrapper {
+    padding: 0 20px;
+    padding-bottom: 20px;
+
+    .fresh-blog-card {
+
+        .fresh-blog-content {}
+    }
+
+    .blog-wrap {
+        display: flex;
+        gap: 20px;
+    }
+
+    .blog-addres-info {}
+
+    .gray-btn-color {
+        background-color: $gray-color;
+    }
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.img-300 {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width:1025px) {
+    .img-300 {
+        height: 180px;
+    }
+
+    .blog-title {
+        font-size: 16px;
     }
 }

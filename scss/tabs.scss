@@ -14,6 +14,7 @@
             height: 75px;
             border-left: 1px solid $gray-color;
             border-radius: 0;
+            color: $blue-color-site;
         }
     }
 
@@ -33,8 +34,10 @@
             display: flex;
 
         }
-
-
-
     }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: $blue-color-site;
+    color: white;
 }
