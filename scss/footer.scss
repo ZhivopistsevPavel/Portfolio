@@ -76,28 +76,29 @@
     &.facebook-icon {
         background-color: blue;
     }
+
+    &:hover {
+        color: gainsboro;
+        transition: 0.5s ease all;
+    
+        &.youtube-icon {
+            background-color: rgb(199, 4, 4);
+        }
+    
+        &.google-icon {
+            background-color: rgb(190, 124, 2);
+        }
+    
+        &.twitter-icon {
+            background-color: #4545a3;
+        }
+    
+        &.facebook-icon {
+            background-color: rgb(1, 1, 194);
+        }    
+    }
 }
 
-.social-network-icon:hover {
-    color: gainsboro;
-    transition: 0.5s ease all;
-
-    &.youtube-icon {
-        background-color: rgb(199, 4, 4);
-    }
-
-    &.google-icon {
-        background-color: rgb(190, 124, 2);
-    }
-
-    &.twitter-icon {
-        background-color: #4545a3;
-    }
-
-    &.facebook-icon {
-        background-color: rgb(1, 1, 194);
-    }    
-}
 
 
 .footer-icon-group {

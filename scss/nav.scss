@@ -4,11 +4,12 @@
 }
 
 .top-panel {
-    gap: 25px;
+    
 
     .nav-link {
         padding: 10px 0;
         color: black;
+        margin-right: 25px;
     }
 
     .nav-link:first-child {
@@ -51,6 +52,31 @@
         }
     }
     
+}
+
+
+
+@media (max-width:$md) {
+
+    .top-panel {
+        justify-content: space-around;
+    }
+    
+    .top-panel .nav-link {
+        font-size: 9px;
+        margin-right: 0;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+
+@media (max-width:$lg-xs) {
+    .burger-option {
+        display: none;
+    }
 }
 
 

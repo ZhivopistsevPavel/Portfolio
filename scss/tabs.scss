@@ -3,10 +3,10 @@
 
     .tab-barside {
         border: 1px solid $gray-color;
+        
 
         .tab-barside-item {
             flex-basis: 11.11%;
-
         }
 
         .tab-barside-link {
@@ -18,8 +18,7 @@
         }
     }
 
-    .tab-pane {
-        
+    .tab-card-block {        
         border: 1px solid $gray-color;
 
         .tabs-card-info {
@@ -40,4 +39,35 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: $blue-color-site;
     color: white;
+}
+
+@media (max-width:$lg) {
+    .tabs-menu .tab-card-block .tabs-card-info {
+        width: 49%;
+    }
+}
+
+@media (max-width:$md) {
+    .tabs-menu .tab-card-block .tabs-card-info {
+        width: 100%; 
+    }
+
+    .card-size-pic {
+        margin: 0;
+    }
+
+    .tabs-menu .tab-card-block .tabs-card-wrapper {
+        justify-content: space-around;
+    }   
+}
+
+@media (max-width:$lg-xs) {
+    .tab-barside {
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .tabs-menu .tab-card-block .tabs-card-info {
+
+    }
 }

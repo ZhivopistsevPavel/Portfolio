@@ -4,10 +4,8 @@
 
 .title-logo {
 
-
     .logo-btn {
         display: flex;
-
 
         .logo-link {
             display: flex;
@@ -21,6 +19,7 @@
         .title-link {
             color: black;
             margin: 0;
+            font-size: 25px;
         }
     }
 }
@@ -52,4 +51,41 @@
 
 .customes-button {
     background-color: $blue-color-site;
+}
+
+.after-media-search{
+    display: none;
+}
+
+@media (max-width:$lg) {
+
+    .before-search-and-btn {
+        display: none;
+    }
+
+    .after-media-search{
+        display: block;
+        margin-top: 25px;
+    }
+
+    .title-logo {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .title-logo-search {
+        margin-top: 10px;
+    }
+
+    .title-logo .logo-btn .logo-link {
+        font-size: 40px;
+    }
+
+    .title-logo .logo-btn .title-link {
+        font-size: 18px;
+    }
+
+    .my-cart {
+        display: none;
+    }
 }

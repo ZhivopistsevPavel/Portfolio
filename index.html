@@ -56,17 +56,17 @@
       <div class="container">
         <div class="row title-logo">
           <div class="col-3 p-0 logo-btn"><a class="logo-link" href="#"><i class="fab fa-reddit"></i>
-              <h1 class="fs-4 lh-1 title-link">Tourmaline.BAR</h1>
+              <h1 class="lh-1 title-link">Tourmaline.BAR</h1>
             </a></div>
-          <div class="col-7 align-self-center search-and-btn">
+          <div class="col-7 align-self-center before-search-and-btn">
             <div class="input-group">
-              <input type="text" class="col-sm-6 form-control border bg-light opacity-50 py-2 fs-6"
+              <input type="text" class="form-control border bg-light opacity-50 py-2 fs-6"
                 placeholder="Search for item..." aria-label="Recipient's username" aria-describedby="button-addon2">
               <button class="btn btn-primary rounded px-4 customes-button" type="button"
                 id="button-addon2">Search</button>
             </div>
           </div>
-          <div class="col-2 cart-btn">
+          <div class="col-auto cart-btn">
             <a class="cart-btn" href="#">
               <button type="button" class="position-relative fas fa-shopping-bag cart-top">
                 <span
@@ -74,8 +74,17 @@
                   <span class="visually-hidden">New alerts</span>
                 </span>
               </button>
-              my cart</a>
-
+              <p class="m-0 my-cart">my cart</p> 
+            </a>
+            <button class="btn hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class="fas fa-bars"></i></button>
+          </div>
+        </div>
+        <div class="align-self-center search-and-btn after-media-search">
+          <div class="input-group">
+            <input type="text" class="form-control border bg-light opacity-50 py-2 fs-6"
+              placeholder="Search for item..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary rounded px-4 customes-button" type="button"
+              id="button-addon2">Search</button>
           </div>
         </div>
       </div>
@@ -86,7 +95,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-3">
-            <aside class="border border-5 left-navbar-dropdawnmenu">
+            <aside class="border border-5 left-navbar-dropdawnmenu burger-option">
               <a class="text-black fw-bold d-block py-2 all-category-link" href="#"><i class="fas fa-bars me-2"></i>All
                 Category</a>
               <div class=" border-dotted"></div>
@@ -193,7 +202,7 @@
               </ul>
             </aside>
           </div>
-          <div class="nav-corusel-bar col-9">
+          <div class="nav-corusel-bar col-lg-9">
             <div class="w-100 border-dotted"></div>
             <div class="nav text-uppercase top-panel">
               <a class="nav-link fw-bold" href="#">Home</a>
@@ -236,6 +245,120 @@
               <div class="col-4 d-flex flex-column justify-content-between">
                 <div class="image-slot"><img src="./img/carousel-1.jpg" class="" alt="#"></div>
                 <div class="image-slot"><img src="./img/carosel-2.jpg" class="" alt="#"></div>
+              </div>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <aside class="border border-5 left-navbar-dropdawnmenu">
+                  <a class="text-black fw-bold d-block py-2 all-category-link" href="#"><i class="fas fa-bars me-2"></i>All
+                    Category</a>
+                  <div class=" border-dotted"></div>
+                  <ul class="btn-group w-100">
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Chair
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Coffee Chair
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Coffee Tables
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Jewellery
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Accessories
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Bedroom
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Livingroom
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Diningroom
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropend item-category-cell">
+                      <a type="button" class="dropdown-toggle asidebar-link" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        More Categories
+                      </a>
+                      <ul class="dropdown-menu dropend">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </aside>
               </div>
             </div>
           </div>
@@ -295,7 +418,7 @@
             </li>
           </ul>
           <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="tab-pane fade show active tab-card-block" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -363,7 +486,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -431,7 +554,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -499,7 +622,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -567,7 +690,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -635,7 +758,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -703,7 +826,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -771,7 +894,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">
@@ -839,7 +962,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade tab-card-block" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
               <div class="tabs-card-info">
                 <div class="tabs-card-wrapper">
                   <img src="./img/card-3.jpg" class="d-block rounded product-card-picture card-size-pic" alt="#">

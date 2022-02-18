@@ -1,0 +1,13 @@
+.hamburger-btn {
+    display: none;
+}
+
+@media (max-width:$lg) {
+    .hamburger-btn{
+        display: block;
+
+        i {
+            margin: 0;
+        }
+    }    
+}

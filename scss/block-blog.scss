@@ -58,7 +58,7 @@
     object-position: center;
 }
 
-@media (max-width:1025px) {
+@media (max-width: $lg) {
     .img-300 {
         height: 180px;
     }
@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:$md) {
     .img-300 {
         height: 250px;
     }
