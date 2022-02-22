@@ -52,8 +52,13 @@
     }
   } 
 
-  @media  (max-width:769px) {
+  @media  (max-width:768px) {
+    
     .carousel-item {
-        font-size: 50%;
+        font-size: 60%;
+    }
+
+    .image-slot {
+     margin-top: 30px;
     }
   }

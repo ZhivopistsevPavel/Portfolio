@@ -106,4 +106,14 @@
     font-size: 40px;
 }
 
+@media (max-width:$lg) {
+    .footer-item-list {
+        flex-direction: column;
+        
+    }
+
+    .footer-second {
+        margin-top: 25px;
+    }
+}
 

@@ -375,6 +375,11 @@ template {
 .header .header-row .gray-text {
   margin: 0;
 }
+.header .header-row .phone-number {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
 
 @media (max-width: 1024px) {
   .header {
@@ -618,6 +623,15 @@ template {
   font-size: 40px;
 }
 
+@media (max-width: 1024px) {
+  .footer-item-list {
+    flex-direction: column;
+  }
+
+  .footer-second {
+    margin-top: 25px;
+  }
+}
 ul {
   list-style: none;
   padding: 0;
@@ -704,7 +718,7 @@ img {
   }
 
   .title-logo .logo-btn .title-link {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .my-cart {
@@ -823,10 +837,17 @@ img {
     font-size: 80%;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .carousel-item {
-    font-size: 50%;
+    font-size: 60%;
   }
+
+  .image-slot {
+    margin-top: 30px;
+  }
+}
+.tabs-menu {
+  margin-bottom: 50px;
 }
 .tabs-menu .tab-barside {
   border: 1px solid #ededed;
@@ -888,11 +909,25 @@ img {
   display: none;
 }
 
+.h-burgerSection1 .btn-group {
+  flex-direction: column;
+}
+.h-burgerSection1 .btn-group .item-category-cell {
+  border-bottom: 1px solid #ededed;
+  font-size: 15px;
+  font-weight: 500;
+}
+.h-burgerSection1 .btn-group .asidebar-link {
+  padding: 24px 0;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 1024px) {
   .hamburger-btn {
     display: block;
-  }
-  .hamburger-btn i {
-    margin: 0;
   }
 }
